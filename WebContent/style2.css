@@ -1,0 +1,197 @@
+@CHARSET "ISO-8859-1";
+
+header{
+	position : fixed;
+	top:0;left:0;right:0;
+	background : black;
+	padding:1rem 7%;
+	padding-left: 30px;
+	display:flex;
+	align-items: center;
+	justify-content: space-between;
+	z-index: 1000;
+	box-shadow:0 .5rem 1.5rem rgba(0,0,0,.1);
+}
+
+header .logo {
+	font-size: 35px;
+	color: white;
+	font-weight: bold;
+	text-decoration: none;
+}
+header .navbar a{
+	font-size: 25px;
+	color: white;
+	border-radius: 10px;
+	padding: 10px;
+	margin-left: 15px;
+	text-decoration: none;
+}
+
+header .navbar a.active,
+header .navbar a:hover
+{
+	color: white;
+	background: #011715;
+}
+
+.banner{
+	margin-top: 71px;
+	border: 6px solid black;
+	margin-bottom: 40px;
+}
+
+.banner img{
+	width: 100%;
+	position: fit;
+}
+
+.login_body .login_section {
+	border:5px solid black;
+	border-radius:14px;
+	margin-left: 300px;
+	margin-right: 200px;
+	margin-top: 43px;
+	/*margin-bottom: 92px;*/
+	padding: 20px;
+}
+
+.login_body .login_section .box_container{
+	display:grid;
+	grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+	gap: 1.5rem;
+}
+
+.login_body .login_section .box_container .image{
+	
+}
+
+.login_body .login_section .box_container .image img{
+	width: 400px;
+	height: 360px;
+}
+
+.login_body .login_section .box_container .login{
+	
+}
+
+.login_body .login_section .box_container .login h3{
+	color: black;
+	font-size: 43px;
+	margin-top: 10px ;	
+	margin-bottom:5px;
+}
+.login_body .login_section .box_container .login font{
+	padding-bottom:13px;
+}
+
+.login_body .login_section .box_container .login form{
+	
+	margin-top: 43px ;	
+	margin-bottom:10px;
+}
+
+.login_body .login_section .box_container .login .sid input{
+	
+	line-height: 3rem;
+	margin-bottom: 25px;
+	border:5px solid #262223;
+	border-radius: 5px;
+}
+
+.login_body .login_section .box_container .login .password input{
+	
+	line-height: 3em;
+	margin-bottom: 15px;
+	border:4px solid #262223;
+	border-radius: 5px;
+}
+
+.login_body .login_section .box_container .login .submit input{
+	
+	line-height: 2em;
+	margin-left: 0px;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	border:5px solid black;
+	border-radius: 5px;
+}
+
+.login_body .login_section .box_container .login .submit a{
+	
+	text-decoration:none;
+	border: 1px solid black;
+	background: white;
+	line-height: 1em;
+	margin-left: 132px;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	
+}
+
+.login_body .login_section .box_container .login a{
+	
+	text-decoration:none;
+	border: 1px solid black;
+	background: white;
+	line-height: 1em;
+	margin-left: 50px;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	border:4px solid black;
+	border-radius: 5px;
+	
+}
+
+/*.sign-up .box-container{
+	display:grid;
+	grid-template-columns: repeat(auto-fit, minmax(10rem, 0.3fr));
+	gap: 1rem;
+	padding-top: 0px;
+}*/
+
+.sign-up .box-container img{
+	height: 690px;
+	width: 500px;
+	float: left;
+	margin-right: 100px;
+}
+
+header .logo {
+	font-size: 35px;
+	color: #DDC6B6;
+	font-weight: bold;
+	text-decoration: none;
+	padding-top:10px;
+}
+header .navbar a{
+	font-size: 25px;
+	color: #DDC6B6;
+	border-radius: 10px;
+	padding: 10px;
+	margin-left: 15px;
+	text-decoration: none;
+}
+
+header .navbar a.active,
+header .navbar a:hover
+{
+	color: white;
+	background: #F4A950;
+}
+.h{
+	margin-top:1px;
+	margin-left:20px;
+}
+.button:hover{
+	background-color:#DDC6B6;
+	width:143px;
+	border:4px solid #262223;
+	border-radius: 5px;
+}
